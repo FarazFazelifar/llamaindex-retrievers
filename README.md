@@ -49,7 +49,7 @@ The Reciprocal Rank Fusion Retriever combines the results from multiple retrieve
 
 ### Simple Fusion Retriever
 
-The Simple Fusion Retriever combines results from multiple retrievers through a straightforward concatenation process . This approach merges the results without any specific ranking or prioritization, providing a simple way to combine the output of different retrievers [12, 13].
+The Simple Fusion Retriever combines results from multiple retrievers through a straightforward concatenation process . This approach merges the results without any specific ranking or prioritization, providing a simple way to combine the output of different retrievers.
 
 **Key Concepts:**
 
@@ -58,7 +58,7 @@ The Simple Fusion Retriever combines results from multiple retrievers through a 
 
 ### Custom Retrievers
 
-LlamaIndex empowers users to implement their own tailored retrieval logic by utilizing the `BaseRetriever` class as a foundation . This flexibility enables developers to create custom retrievers specific to their unique use cases and data characteristics [14, 15].
+LlamaIndex empowers users to implement their own tailored retrieval logic by utilizing the `BaseRetriever` class as a foundation . This flexibility enables developers to create custom retrievers specific to their unique use cases and data characteristics.
 
 **Key Concepts:**
 
@@ -70,48 +70,48 @@ LlamaIndex empowers users to implement their own tailored retrieval logic by uti
 
 ### Composable Objects
 
-LlamaIndex utilizes composable objects, specifically `IndexNode` objects, to enable the combination of retrievers, query engines, and other components into complex and flexible indexes . This modularity empowers developers to build sophisticated query systems that can handle diverse information needs [17, 18].
+LlamaIndex utilizes composable objects, specifically `IndexNode` objects, to enable the combination of retrievers, query engines, and other components into complex and flexible indexes . This modularity empowers developers to build sophisticated query systems that can handle diverse information needs.
 
 **Key Concepts:**
 
-*   Modularity: Designing components that can be easily combined and reused [18].
-*   Index Composition: Constructing complex indexes by combining different components [17, 18].
-*   Query Flexibility: Enabling diverse query strategies and information retrieval capabilities [18].
+*   Modularity: Designing components that can be easily combined and reused.
+*   Index Composition: Constructing complex indexes by combining different components.
+*   Query Flexibility: Enabling diverse query strategies and information retrieval capabilities.
 
 ### Metadata Replacement
 
-Metadata replacement enhances the retrieval process by substituting the original text of a node with its surrounding context [19]. This contextual enrichment provides more informative responses by including relevant information from the node's surroundings [19, 20].
+Metadata replacement enhances the retrieval process by substituting the original text of a node with its surrounding context. This contextual enrichment provides more informative responses by including relevant information from the node's surroundings.
 
 **Key Concepts:**
 
-*   Contextual Enrichment: Adding surrounding information to the retrieved node [20].
-*   Improved Response Generation: Providing more contextually relevant and informative answers [20].
+*   Contextual Enrichment: Adding surrounding information to the retrieved node.
+*   Improved Response Generation: Providing more contextually relevant and informative answers.
 
 ### Sentence Window Node Parsing
 
-This technique involves extracting sentences from the data source along with their surrounding context, creating richer node representations [21]. Including the local context surrounding each sentence improves the relevance and informativeness of the retrieved information [21, 22].
+This technique involves extracting sentences from the data source along with their surrounding context, creating richer node representations. Including the local context surrounding each sentence improves the relevance and informativeness of the retrieved information.
 
 **Key Concepts:**
 
-*   Local Context: Capturing the text surrounding each sentence [22].
-*   Improved Relevance: Enhancing the relevance of retrieved information by considering local context [22].
-*   Informative Responses: Generating responses that are more informative and contextually grounded [22].
+*   Local Context: Capturing the text surrounding each sentence.
+*   Improved Relevance: Enhancing the relevance of retrieved information by considering local context.
+*   Informative Responses: Generating responses that are more informative and contextually grounded.
 
 ### Evaluation
 
-Evaluating the performance of retrievers is crucial for ensuring effective information retrieval [23]. LlamaIndex provides tools for assessing retriever performance using metrics such as correctness, semantic similarity, and relevance [23, 24].
+Evaluating the performance of retrievers is crucial for ensuring effective information retrieval. LlamaIndex provides tools for assessing retriever performance using metrics such as correctness, semantic similarity, and relevance.
 
 **Key Concepts:**
 
-*   Performance Measurement: Quantifying the effectiveness of different retrievers [24].
-*   Optimization: Using evaluation results to improve retriever performance [24].
-*   Comparative Analysis: Comparing the performance of different retriever types [24].
+*   Performance Measurement: Quantifying the effectiveness of different retrievers.
+*   Optimization: Using evaluation results to improve retriever performance.
+*   Comparative Analysis: Comparing the performance of different retriever types.
 
 ## Practical Applications and Examples
 
-This repository aims to provide practical examples and use cases demonstrating the different aspects of LlamaIndex retrievers [25-28]. It will include:
+This repository aims to provide practical examples and use cases demonstrating the different aspects of LlamaIndex retrievers. It will include:
 
-*   **Use Cases for Different Retrievers:** Scenarios illustrating the suitability of specific retriever types for various information retrieval tasks [25].
-*   **Building a Custom Retriever:** A step-by-step guide with code examples to create a custom retriever tailored to a specific use case [26].
-*   **Composing Complex Indexes:** Demonstrations of building and querying complex indexes using composable objects and multiple components [27].
-*   **Evaluating Retriever Performance:** Examples illustrating the use of evaluation tools and interpreting the results to assess and improve retriever effectiveness [28].
+*   **Use Cases for Different Retrievers:** Scenarios illustrating the suitability of specific retriever types for various information retrieval tasks.
+*   **Building a Custom Retriever:** A step-by-step guide with code examples to create a custom retriever tailored to a specific use case.
+*   **Composing Complex Indexes:** Demonstrations of building and querying complex indexes using composable objects and multiple components.
+*   **Evaluating Retriever Performance:** Examples illustrating the use of evaluation tools and interpreting the results to assess and improve retriever effectiveness.
