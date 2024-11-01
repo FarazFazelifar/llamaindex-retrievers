@@ -1,0 +1,16 @@
+llama-index
+llama-index-llms-ollama
+llama-index-embeddings-ollama
+llama-index-retrievers-bm25
+llama-index.vector-stores.chroma
+llama-index-storage-docstore-mongodb
+llama-index-vector-stores-qdrant
+llama-index-storage-docstore-firestore
+llama-index-storage-docstore-redis
+llama-index-storage-docstore-dynamodb
+llama-index-vector-stores-faiss
+llama-index-experimental
+ipython-ngql 
+nebula3-python
+matplotlib
+nest-asyncio
