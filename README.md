@@ -13,6 +13,7 @@ LlamaIndex offers diverse retriever types to cater to various use cases and data
 *   **Vector Retrievers:** These retrievers leverage embeddings, mathematical representations of text that capture semantic meaning, to perform similarity searches . By comparing the embedding of a user query to the embeddings of data chunks, they identify the most semantically similar information .
 *   **Keyword Retrievers:**  Employing keyword matching techniques, keyword retrievers focus on literal search, identifying data chunks that contain the specific keywords present in the user query .
 *   **Hybrid Retrievers:**  Hybrid retrievers combine the strengths of multiple retriever types, such as vector and keyword retrievers, to enhance both accuracy and coverage in search results . This combination allows for a more comprehensive retrieval process that considers both semantic similarity and literal keyword matches .
+* **Pandas Dataframe Integration:** Integrating structured data queries via Pandas for combined structured and unstructured data analysis.
 
 ## Specific Retriever Implementations
 
@@ -65,6 +66,10 @@ LlamaIndex empowers users to implement their own tailored retrieval logic by uti
 *   Inheritance: Utilizing the `BaseRetriever` class as a starting point for custom implementations .
 *   Customized Retrieval Algorithms: Implementing specific retrieval logic tailored to the use case .
 *   Use-Case Specific Logic: Addressing the specific requirements and nuances of the application domain .
+
+### Pandas Dataframe Retriever
+
+The pandas dataframe retriever can search the contents of a dataframe, calculate numbers and find relations between the data. This retriever is still an experimental deature in the llamaindex library.
 
 ## Advanced Concepts and Techniques
 
